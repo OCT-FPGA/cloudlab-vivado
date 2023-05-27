@@ -1,4 +1,4 @@
-"""P4 node setup script.
+"""Custom workflow node setup.
 """
 
 # Import the Portal object.
