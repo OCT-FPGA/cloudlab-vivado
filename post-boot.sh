@@ -43,7 +43,7 @@ check_xrt() {
 }
 
 install_xbflash() {
-    cp -r /proj/oct-fpga-p4-PG0/tools/xbflash/${OSVERSION} /tmp
+    cp -r /proj/oct-fpga-vivado-PG0/tools/xbflash/${OSVERSION} /tmp
     echo "Installing xbflash."
     if [[ "$OSVERSION" == "ubuntu-18.04" ]] || [[ "$OSVERSION" == "ubuntu-20.04" ]]; then
         apt install /tmp/${OSVERSION}/*.deb
